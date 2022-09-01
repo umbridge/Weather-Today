@@ -1,0 +1,13 @@
+.user-container {
+    position: relative;
+    height: 61.25rem;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+@media screen and (max-width:393px) {
+    .user-container {
+        height: 53rem;
+    }
+}

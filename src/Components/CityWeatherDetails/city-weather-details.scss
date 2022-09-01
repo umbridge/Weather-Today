@@ -1,0 +1,481 @@
+.user-container {
+    position: relative;
+    height: 61.25rem;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+
+    .city-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+
+        .action-container {
+            top: 10%;
+            height: 30%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .navigation {
+
+                // width: 20%;
+                .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+                    position: absolute;
+                    left: 2.11%;
+                    top: 16.6%;
+                    bottom: 81.38%;
+                    width: 2%;
+                    height: 2%;
+                }
+
+                .back-text {
+                    position: absolute;
+                    left: 5%;
+                    top: 16.6%;
+                    cursor: pointer;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                    color: #0170FE;
+                }
+
+            }
+
+            .add-to-watchlist {
+                // position: absolute;
+                // left: 80%;
+                top: 16.6%;
+                // width: 20%;
+                // height: 20rem;
+
+                .add-to-list {
+                    position: absolute;
+                    width: 10.6rem;
+                    height: 1.875rem;
+                    left: 85%;
+                    top: 10rem;
+                    cursor: pointer;
+                }
+
+                .added-to-list {
+                    position: absolute;
+                    height: 3rem;
+                    left: 85%;
+                    top: 10rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .city-details {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            // left: 20%;
+            top: 20%;
+            font-family: 'Roboto';
+            font-style: normal;
+
+            .sun-img {
+                width: 7.6875rem;
+                height: 7.6875rem;
+            }
+
+            .city-name {
+                font-weight: 600;
+                font-size: 1.875rem;
+            }
+
+            .temp {
+                font-weight: 500;
+                font-size: 4rem;
+                line-height: 0rem;
+            }
+
+            .degree {
+                position: absolute;
+                top: 75%;
+                bottom: 62.02%;
+            }
+        }
+
+        .weather-details {
+            width: 100%;
+            height: 49%;
+
+            .tabulated {
+                box-sizing: border-box;
+
+                position: absolute;
+                width: 60%;
+                height: 7.75rem;
+                left: 20%;
+                top: 50%;
+
+                background: #FDFCFC;
+                border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+                border-radius: 0.6875rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .properties,
+                .properties-val {
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    color: #5A5A5A;
+                }
+            }
+
+            .graphical {
+                box-sizing: border-box;
+
+                position: absolute;
+                width: 60%;
+                height: 19rem;
+                left: 20%;
+                top: 64%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                background: #FDFCFC;
+                border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+                border-radius: 0.6875rem;
+
+                .day-details {
+                    // margin-bottom: 4rem;
+                    height: 15%;
+                    margin-left: 5%;
+                    color: #C4C4C4;
+                }
+
+                .text-details {
+                    top: 79%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    // align-items: left;
+
+                    // padding: 2%;
+                    .day-values {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: flex-end;
+                        justify-content: space-around;
+
+                        .heading {
+                            // position: absolute;
+                            margin-top: 10%;
+                            text-align: center;
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 1.25rem;
+                            // line-height: 1.875rem;
+                            /* identical to box height */
+                            color: #C4C4C4;
+
+
+                            .values {
+                                color: black;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    .graph-area {
+
+                        width: 50%;
+                        // padding: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        justify-items: center;
+                        align-items: center;
+
+                        .head-values {
+                            width: 85%;
+                            height: 13%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            text-align: center;
+
+                            .head {
+                                // position: absolute;
+                                text-align: center;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 1.375rem;
+                                // line-height: 1.875rem;
+                                /* identical to box height */
+                                color: #C4C4C4;
+                                margin-bottom: 0%;
+
+
+                            }
+
+                            .val {
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #C4C4C4;
+                            }
+
+                        }
+
+                        .graph {
+                            width: 100%;
+                        }
+                    }
+
+
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:393px) {
+    .user-container {
+        height: 53.187rem;
+
+        .city-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .action-container {
+                top: 0%;
+                width: 100%;
+                height: 12%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .navigation {
+                    .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+                        position: absolute;
+                        left: 6.4%;
+                        top: 9%;
+                        bottom: 88.3%;
+                        width: 3.1%;
+                        height: 2.4%;
+                    }
+
+                    .back-text {
+                        display: none;
+                    }
+                }
+
+                .add-to-watchlist {
+                    top: 0%;
+
+                    // height: 20rem;
+                    .add-to-list {
+                        position: absolute;
+                        width: 29.3%;
+                        height: 3%;
+                        left: 64.26%;
+                        top: 8%;
+                        cursor: pointer;
+                    }
+
+                    .added-to-list {
+                        position: absolute;
+                        height: 4.5%;
+                        left: 45%;
+                        width: 55%;
+                        top: 8%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+
+                        .button-text {
+                            text-transform: capitalize;
+                            font-size: 0.75rem;
+                        }
+
+                        .r {
+                            width: 10%;
+                            margin-left: 0.2rem;
+                            margin-right: 0.2rem;
+                        }
+
+                        .css-9tj150-MuiButton-endIcon {
+                            display: inherit;
+                            margin-right: -4px;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+
+            }
+
+            .city-details {
+                height: 33%;
+                top: 12%;
+                justify-content: space-around;
+
+                .sun-img {
+                    height: 7rem;
+                }
+
+                .city-name {
+                    // top: 35%;
+                    font-size: 1.875rem;
+                    margin: 0%;
+                }
+
+                .temp {
+                    // top: 41%;
+                    // height: 7%;
+                    margin: 0;
+                }
+            }
+
+            .weather-details {
+                top: 47%;
+                height: 53%;
+
+
+                .tabulated {
+                    top: 52%;
+                    height: 7.2%;
+                    width: 87%;
+                    left: 6.5%;
+
+                    .properties {
+                        font-weight: 500;
+                        font-size: 0.75rem;
+                        text-align: center;
+                        color: #C4C4C4;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    .properties-val {
+                        font-size: 0.93rem;
+                        font-weight: 500;
+                        margin: 0%;
+                        // line-height: 1.375;
+                        text-align: center;
+                        color: #C4C4C4;
+                    }
+                }
+
+                .graphical {
+                    top: 63%;
+                    left: 6.5%;
+                    height: 28.2%;
+                    width: 87%;
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 1rem;
+
+                    .day-details {
+                        .rise-set {
+                            width: 100%;
+                            height: 10%;
+                            font-size: 0.75rem;
+                            color: #C4C4C4;
+                        }
+
+                    }
+
+                    .text-details {
+                        width: 100%;
+                        height: 90%;
+                        display: flex;
+                        flex-direction: column-reverse;
+
+                        .day-values {
+                            width: 100%;
+                            height: 14%;
+
+
+                            .heading {
+                                font-size: 0.625rem;
+                                margin: 0%;
+                                text-align: left;
+                            }
+
+                            .values {
+                                font-size: 0.625rem;
+                            }
+
+                        }
+
+                        .graph-area {
+
+                            width: 100%;
+                            height: 70%;
+
+                            .head-values {
+                                width: 100%;
+
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-around;
+                                text-align: center;
+
+                                .head {
+                                    // position: absolute;
+                                    text-align: center;
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 0.625rem;
+                                    // line-height: 1.875rem;
+                                    /* identical to box height */
+                                    color: #C4C4C4;
+                                    margin: 0%;
+
+
+                                }
+
+                                .val {
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 0.75rem;
+                                    color: #C4C4C4;
+                                    margin: 0%;
+                                }
+
+                            }
+
+                            // .graph {
+                            //     width: 100%;
+                            // }
+                        }
+                    }
+
+
+
+
+                }
+            }
+
+        }
+    }
+}

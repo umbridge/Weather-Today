@@ -1,0 +1,47 @@
+.recent-location-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    overflow-y: hidden;
+    justify-content: list-separator;
+    justify-items: left;
+    overflow-wrap: floor($number: 7);
+    overflow-x: hidden;
+
+
+    height: 3rem;
+    width: 50%;
+    top: 28%;
+    left: 26%;
+
+    .recent-location-button {
+        box-sizing: border-box;
+        height: 2.625rem;
+        left: 0%;
+        top: 25%;
+        margin-left: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 0.3rem;
+        margin-bottom: 1%;
+        cursor: pointer;
+        background: #FDFCFC;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+}
+
+@media(max-width:393px) {
+    .recent-location-container {
+        height: 2.8rem;
+        width: 87%;
+        top: 13%;
+        left: 6.5%;
+
+        .recent-location-button {
+            border-radius: 0.437rem;
+        }
+    }
+}

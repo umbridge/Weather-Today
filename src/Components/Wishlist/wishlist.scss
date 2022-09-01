@@ -1,0 +1,372 @@
+.Carousel-container {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 35%;
+
+    .my-carousel .css-1f8sh1y element.style {
+        all: none;
+    }
+
+    .my-carousel {
+        width: 100%;
+        height: 39rem;
+
+        .css-1m9128y {
+            width: 100%;
+            top: 70px;
+            text-align: center;
+            margin: 1rem;
+
+        }
+
+        .css-1f8sh1y {
+            position: relative;
+            width: 100%;
+            height: 37rem;
+        }
+
+
+        .city-container {
+            display: flex;
+            flex-direction: column;
+            height: 35rem;
+
+            .upper-container {
+                display: flex;
+                flex-direction: row-reverse;
+                height: 50%;
+
+                .city-details {
+                    height: 40%;
+                    display: flex;
+                    width: 90%;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    justify-items: center;
+                    text-align: center;
+                    top: 5%;
+                    width: 100%;
+
+                    .weather-icon {
+                        width: 5rem;
+                        height: 5rem;
+                        position: relative;
+                    }
+
+                    .city {
+                        font-weight: 500;
+                        font-size: 1.875rem;
+                        margin: 0rem;
+                    }
+
+                    .city-temp {
+                        font-weight: 600;
+                        font-size: 2.875rem;
+                        margin: 1rem;
+                    }
+                }
+
+                .remove-from-wishlist {
+                    left: 80%;
+                    width: 10%;
+                    height: 100%;
+                }
+            }
+
+            .lower-container {
+                // height: 50%;
+                // top: 80%;
+
+                .tabulated {
+                    box-sizing: border-box;
+                    height: 6rem;
+                    background: #FDFCFC;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    border-radius: 11px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    .properties {
+                        font-weight: 500;
+                        font-size: 1.25rem;
+                        text-align: center;
+                        color: #5A5A5A;
+                    }
+                }
+
+                .graphical {
+                    box-sizing: border-box;
+                    height: 12rem;
+                    background: #FDFCFC;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    border-radius: 11px;
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .day-details {
+                        // margin-bottom: 4rem;
+                        height: 25%;
+                        margin-left: 5%;
+                        color: #C4C4C4;
+                        width: 100%;
+                    }
+
+                    .text-details {
+                        top: 79%;
+                        height: 75%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        // align-items: left;
+
+                        // padding: 2%;
+                        .day-values {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+
+                            .heading {
+                                // position: absolute;
+                                // margin-top: 10%;
+                                text-align: center;
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.25rem;
+                                // line-height: 1.875rem;
+                                /* identical to box height */
+                                color: #C4C4C4;
+
+
+                                .values {
+                                    color: black;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+
+                        .graph-area {
+
+                            width: 50%;
+                            // padding: 2rem;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            justify-items: center;
+                            align-items: center;
+
+                            .head-values {
+                                width: 85%;
+                                height: 13%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                                text-align: center;
+
+                                .head {
+                                    // position: absolute;
+                                    text-align: center;
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 1.375rem;
+                                    // line-height: 1.875rem;
+                                    /* identical to box height */
+                                    color: #C4C4C4;
+                                    margin-bottom: 0%;
+
+
+                                }
+
+                                .val {
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 1rem;
+                                    color: #C4C4C4;
+                                }
+
+                            }
+
+                            .graph {
+                                width: 100%;
+                            }
+                        }
+
+
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width:393px) {
+    .Carousel-container {
+        width: 87%;
+        left: 6.5%;
+        top: 20%;
+
+        .my-carousel {
+            height: 40rem;
+
+            .css-1m9128y {
+                width: 100%;
+                text-align: center;
+                top: 0%;
+                position: absolute;
+            }
+
+            .css-1abc02a {
+                height: 0%;
+                width: 0%;
+            }
+
+            .city-container {
+                top: 10%;
+                position: absolute;
+
+                .upper-container {
+                    height: 30%;
+
+                    .remove-from-wishlist {
+                        width: 100%;
+                        height: 2.4375rem;
+                        display: flex;
+                        flex-direction: row-reverse;
+
+                        .remove-button {
+                            font-size: 0.75;
+                            width: 16%;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+
+                .lower-container {
+                    .tabulated {
+                        top: 52%;
+                        height: 3.6875rem;
+                        width: 20.4375;
+                        left: 6.5%;
+
+                        .properties {
+                            font-weight: 500;
+                            font-size: 0.75rem;
+                            text-align: center;
+                            color: #C4C4C4;
+                            margin-bottom: 0.5rem;
+                        }
+
+                        .properties-val {
+                            font-size: 0.93rem;
+                            font-weight: 500;
+                            margin: 0%;
+                            // line-height: 1.375;
+                            text-align: center;
+                            color: #C4C4C4;
+                        }
+                    }
+
+                    .graphical {
+                        top: 63%;
+                        left: 6.5%;
+                        height: 14.3125rem;
+                        width: 20.4375rem;
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 1rem;
+
+                        .day-details {
+                            .rise-set {
+                                width: 100%;
+                                height: 10%;
+                                font-size: 0.75rem;
+                                color: #C4C4C4;
+                            }
+
+                        }
+
+                        .text-details {
+                            width: 100%;
+                            height: 90%;
+                            display: flex;
+                            flex-direction: column-reverse;
+
+                            .day-values {
+                                width: 100%;
+                                height: 14%;
+
+
+                                .heading {
+                                    font-size: 0.625rem;
+                                    margin: 0%;
+                                    text-align: left;
+                                }
+
+                                .values {
+                                    font-size: 0.625rem;
+                                }
+
+                            }
+
+                            .graph-area {
+
+                                width: 100%;
+                                height: 70%;
+
+                                .head-values {
+                                    width: 100%;
+
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    text-align: center;
+
+                                    .head {
+                                        // position: absolute;
+                                        text-align: center;
+                                        font-family: 'Roboto';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 0.625rem;
+                                        // line-height: 1.875rem;
+                                        /* identical to box height */
+                                        color: #C4C4C4;
+                                        margin: 0%;
+
+
+                                    }
+
+                                    .val {
+                                        font-family: 'Roboto';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 0.75rem;
+                                        color: #C4C4C4;
+                                        margin: 0%;
+                                    }
+
+                                }
+                            }
+                        }
+
+
+
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
+}

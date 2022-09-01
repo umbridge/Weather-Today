@@ -1,0 +1,99 @@
+.ResultCard {
+    position: absolute;
+    width: 25rem;
+    height: 15rem;
+    left: 25%;
+    top: 40%;
+    cursor: pointer;
+    background: #FDFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10%;
+        padding: 1rem;
+
+        .title {
+            font-size: 1.375rem;
+            font-weight: 500;
+        }
+    }
+
+    .card-content-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        height: 30%;
+
+        .temp-val {
+            line-height: inherit;
+            font-size: 64px;
+            font-weight: 500;
+
+            .degree {
+                top: 30%;
+                bottom: 100%;
+                position: absolute;
+            }
+        }
+
+        .weather-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0;
+        }
+    }
+
+    .card-content-2 {
+        .rainyday {
+
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 1rem;
+
+            p {
+                color: #BFAF1B;
+            }
+        }
+    }
+
+
+
+
+}
+
+@media(max-width:393px) {
+    .ResultCard {
+        width: 87%;
+        height: 31.6%;
+        left: 6.5%;
+        top: 21%;
+
+
+        .card-content-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 1rem;
+
+            .temp-val {
+                font-size: 3.75rem;
+                line-height: 1;
+
+                .degree {
+                    top: 30%;
+                }
+            }
+        }
+
+
+
+
+
+    }
+}

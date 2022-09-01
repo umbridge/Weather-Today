@@ -1,0 +1,11 @@
+.graph-div {
+    width: 40%;
+}
+
+@media screen and (max-width:393px) {
+    .graph-div {
+        width: 80%;
+        height: 90%;
+    }
+
+}

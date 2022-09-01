@@ -1,0 +1,42 @@
+.nav-container {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0rem;
+    bottom: 90%;
+
+    background: rgba(178, 235, 242, 0.5);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+
+    img {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        left: 2.187rem;
+        top: 0.625rem;
+    }
+
+    span {
+        position: absolute;
+        width: 11rem;
+        height: 1.5rem;
+        left: 8.25rem;
+        top: 2.375rem;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        /* identical to box height, or 120% */
+
+
+        color: #000000;
+    }
+}
+
+@media(max-width: 393px) {
+    .nav-container {
+        display: none;
+    }
+}

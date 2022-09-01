@@ -1,0 +1,46 @@
+.no-location {
+
+    img {
+        position: absolute;
+        width: 20%;
+        height: 17%;
+        left: 40%;
+        top: 40%;
+    }
+
+    p {
+        position: absolute;
+        width: 30%;
+        height: 1.875rem;
+        left: 40%;
+        top: 60%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+}
+
+@media(max-width:393px) {
+    .no-location {
+        img {
+            width: 46.5%;
+            height: 9%;
+            left: 25%;
+            top: 37%;
+        }
+
+        p {
+            width: 63%;
+            height: 2.8%;
+            left: 18%;
+            top: 48%;
+        }
+    }
+}
